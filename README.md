@@ -119,7 +119,36 @@ FileProcessingUtility
 ```
 
 ---
+## Project Screenshots
 
+### Project Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+### Backup Folder
+
+![Backup Folder](screenshots/Backup.png)
+
+### Input Folder
+
+![Input Folder](screenshots/Input.png)
+
+### Output Folder
+
+![Output Folder](screenshots/Output.png)
+
+
+### Reject Folder
+
+![Reject Folder](screenshots/Reject.png)
+
+
+### file
+
+![file](screenshots/file.png)
+
+
+----
 ## Sample Input
 
 ```text

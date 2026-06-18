@@ -1,0 +1,34 @@
+2026-06-17 16:29:07 INFO  FileProcessor - ========== PROCESS STARTED ==========
+2026-06-17 16:29:07 ERROR FileProcessor - PROCESS FAILED
+java.io.FileNotFoundException: C:\Users\reena\Desktop\JAVA_26\FileProcessingUtility\file\Input (Access is denied)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_462]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_462]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_462]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_462]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_462]
+	at org.example.FileProcessor.main(FileProcessor.java:45) [classes/:?]
+2026-06-17 16:29:07 INFO  FileProcessor - ========== PROCESS COMPLETED ==========
+2026-06-17 16:29:12 INFO  FileProcessor - ========== PROCESS STARTED ==========
+2026-06-17 16:29:12 ERROR FileProcessor - PROCESS FAILED
+java.io.FileNotFoundException: C:\Users\reena\Desktop\JAVA_26\FileProcessingUtility\file\Input (Access is denied)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_462]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_462]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_462]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_462]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_462]
+	at org.example.FileProcessor.main(FileProcessor.java:45) [classes/:?]
+2026-06-17 16:29:12 INFO  FileProcessor - ========== PROCESS COMPLETED ==========
+2026-06-17 16:52:52 INFO  FileProcessor - File=Test.txt Total=13 Valid=8 Invalid=5
+2026-06-17 16:52:52 ERROR FileProcessor - Error while processing file : Test.txt
+java.nio.file.FileSystemException: C:\Users\reena\Desktop\JAVA_26\FileProcessingUtility\file\Input\Test.txt -> C:\Users\reena\Desktop\JAVA_26\FileProcessingUtility\file\Backup\Test_20260617_165252.txt: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86) ~[?:1.8.0_462]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_462]
+	at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:387) ~[?:1.8.0_462]
+	at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287) ~[?:1.8.0_462]
+	at java.nio.file.Files.move(Files.java:1395) ~[?:1.8.0_462]
+	at org.example.FileProcessor.backupFile(FileProcessor.java:157) ~[classes/:?]
+	at org.example.FileProcessor.processFile(FileProcessor.java:122) [classes/:?]
+	at org.example.FileProcessor.main(FileProcessor.java:45) [classes/:?]
+2026-06-17 17:24:13 INFO  FileProcessor - File=Test.txt Total=13 Valid=8 Invalid=5
+2026-06-17 17:24:13 INFO  FileProcessor - File moved to backup : Test_20260617_172413.txt
