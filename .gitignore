@@ -1,0 +1,11 @@
+.idea/
+target/
+Logs/
+
+file/Input/
+file/Output/
+file/Reject/
+file/Backup/
+
+*.log
+*.iml
