@@ -125,6 +125,11 @@ FileProcessingUtility
 
 ![Project Structure](screenshots/project-structure.png)
 
+
+### Console Output
+
+![Console Output](screenshots/console-output.png)
+
 ### Backup Folder
 
 ![Backup Folder](screenshots/Backup.png)
